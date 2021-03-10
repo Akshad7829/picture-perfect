@@ -1,0 +1,211 @@
+*{
+  margin: auto;
+}
+.body {
+  box-sizing: border-box;
+  background-color: rgb(46, 45, 45);
+  color: #333;
+  font-size: 8px;
+
+}
+
+.download {
+  position: relative;
+  display: flex;
+  background-color:
+}
+.camera{
+  width: 50px;
+  height: 0px;
+}
+.foot {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 22rem;
+color: white;
+}
+.App {
+  margin: 0;
+  padding: 1%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
+
+.image {
+  flex: 100%;
+  margin-top: 1rem;
+  border-radius:20px;
+
+  width:300px;
+  height:300px;
+}
+.card-list {
+  column-count: 3;
+
+}
+.download{
+  position: absolute;
+  background-color: #1DB954;
+color: black;
+font-size: 1rem;
+border: 2px solid black;
+border-radius: 8px;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+width: 3rem;
+height: 1rem;
+}
+
+.download:hover, .download:active {
+  background-color:white ;
+  color: black;
+}
+.card {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.heading {
+  text-align: center;
+  color:#1DB954;
+  font-size: 4rem;
+  font-family:  monospace;
+  font-weight: bold;
+}
+.form {
+  display: grid;
+}
+.take {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 1rem;
+  width: 60rem;
+  height: 2rem;
+  justify-content: space-around;
+}
+.btn {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 15rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.icon{
+  width: 20px;
+  position: absolute;
+}
+.des{
+
+
+}
+@media only screen and (max-device-width: 480px) {
+  .card-list{
+    column-count: 1;
+  }
+.image{
+width:90%;
+height: 50%;
+align-content: center;
+margin-left: 1rem;
+flex: 100%;
+  }
+
+  .download{
+    position: absolute;
+    background-color: #1DB954;
+  color: black;
+  font-size: 0.5rem;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 2rem;
+  height: 0.5rem;
+
+  }
+  .icon{
+    position: relative;
+    width: 2rem;
+    align-content: center;
+margin-right: 10rem;
+
+margin-bottom: 5rem;
+
+  }
+  .download:hover, .download:active {
+    background-color:white ;
+    color: black;
+  }
+  .card{
+    display: block;
+  }
+  .foot {
+position: relative;
+    font-size: 1rem;
+    margin-top: 22rem;
+padding-bottom: 12rem;
+
+    text-align: center;
+  }
+  .heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  .take {
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 20px;
+    background-color: white;
+
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    line-height: 5rem;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 1rem;
+    width: 15rem;
+    height: 1rem;
+    justify-content: space-around;
+  }
+  .btn {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 6rem;
+    height: 2.5rem;
+    position: relative;
+  }
+
+}
