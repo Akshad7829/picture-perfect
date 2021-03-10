@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 import ProgressiveImage from "react-progressive-image-loading";
 import { LazyLoadImage} from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
+import download from "./down.png";
 
 import axios from "axios";
 import "./styles.css";
@@ -45,7 +45,7 @@ const {REACT_APP_client_id}=process.env;
         <div className="container">
         <Typical
       className="heading"
-      steps={[  "Picture Perfect!",1500," Picture Perfect!", 1500]}
+      steps={[  "Picture Perfect!",5000]}
       loop={Infinity}
       wrapper="h1"
     />
@@ -81,10 +81,10 @@ const {REACT_APP_client_id}=process.env;
                    effect="blur"/>
             <p className="des">{photos.alt_description}</p>
 
-                  <a  className="icon"
+                  <a className="icon"
                     href={photos.links.download + "?force=true"}
 
-                  ><img  src="https://www.flaticon.com/svg/vstatic/svg/786/786425.svg?token=exp=1615296509~hmac=ffc51beb4386ac71ab040ff1016949a0"/></a>   </div>
+                  ><img  src={download} width="50px"/></a>   </div>
               ))}
 
             </div>
